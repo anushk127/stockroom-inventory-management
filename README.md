@@ -129,6 +129,8 @@ docker login
 docker push <dockerhub-user>/stockroom-api:latest
 ```
 
+When Docker is unavailable locally, the included GitHub Actions workflow can build and push the image remotely. Add repository secrets named `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`, then run the `Publish backend image` workflow.
+
 The final submission should include:
 
 - GitHub repository URL
