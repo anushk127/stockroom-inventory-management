@@ -133,7 +133,7 @@ When Docker is unavailable locally, the included GitHub Actions workflow can bui
 
 The final submission should include:
 
-- GitHub repository URL
-- Docker Hub backend image URL
-- Live frontend URL
-- Live backend API URL
+- GitHub repository URL: `https://github.com/anushk127/stockroom-inventory-management`
+- Docker Hub backend image URL: `https://hub.docker.com/r/anushkshekhar/stockroom-api`
+- Live frontend URL: `https://stockroom-inventory-management.vercel.app`
+- Live backend API URL: `https://inventory-api-hhkh.onrender.com`

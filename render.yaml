@@ -11,7 +11,7 @@ services:
           name: inventory-db
           property: connectionString
       - key: CORS_ORIGINS
-        sync: false
+        value: https://stockroom-inventory-management.vercel.app
 
 databases:
   - name: inventory-db
